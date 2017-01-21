@@ -20,7 +20,7 @@ public class CartDbHelper extends SQLiteOpenHelper{
                 CartContract.CartEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 CartContract.CartEntry.COLUMN_TITLE + " TEXT NOT NULL, " +
                 CartContract.CartEntry.COLUMN_SUBTITLE + " TEXT NOT NULL, " +
-                CartContract.CartEntry.COLUMN_PRICE + " TEXT NOT NULL" +
+                CartContract.CartEntry.COLUMN_PRICE + " TEXT NOT NULL, " +
                 CartContract.CartEntry.COLUMN_IMAGE + " TEXT NOT NULL" +
                 "); ";
 

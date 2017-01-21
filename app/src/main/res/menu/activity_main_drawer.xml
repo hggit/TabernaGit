@@ -25,10 +25,11 @@
         <item
             android:id="@+id/Daily_use"
             android:icon="@drawable/ic_emoticon"
-            android:title="Daily_use" />
+            android:title="Daily Use" />
 
     </group>
-    <item >
+    <item
+        android:title="some">
         <menu>
             <item
                 android:icon="@drawable/ic_emoticon"
@@ -36,8 +37,12 @@
                 android:id="@+id/Set_Budget"/>
             <item
                 android:icon="@drawable/ic_emoticon"
-                android:title="haha"
-                android:id="@+id/details"/>
+                android:title="My Cart"
+                android:id="@+id/My_cart"/>
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="Logout"
+                android:id="@+id/Logout"/>
         </menu>
     </item>
 

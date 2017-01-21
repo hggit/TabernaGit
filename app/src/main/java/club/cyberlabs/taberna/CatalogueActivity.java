@@ -18,6 +18,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.google.android.gms.wallet.Cart;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -96,6 +98,16 @@ public class CatalogueActivity extends AppCompatActivity {
                         Intent intent6 = new Intent(getApplicationContext(),CatalogueActivity.class);
                         intent6.putExtra("ans",6);
                         startActivity(intent6);
+                        return true;
+                    case R.id.My_cart:
+                        Intent intent7 = new Intent(getApplicationContext(),CartActivity.class);
+
+                        startActivity(intent7);
+                        return true;
+                    case R.id.Logout:
+                        Intent intent8 = new Intent(getApplicationContext(),LoginActivity.class);
+
+                        startActivity(intent8);
                         return true;
 
                 }

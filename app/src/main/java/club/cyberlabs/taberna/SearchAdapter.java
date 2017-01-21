@@ -1,6 +1,8 @@
 package club.cyberlabs.taberna;
 
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -29,22 +31,21 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ResultHold
     int count;
     ListItemClickListener clickListener;
     JSONArray jsonArray;
+    SQLiteDatabase db;
 
     public interface ListItemClickListener {
         void onListItemClick(int clickedItemIndex);
     }
 
-    SearchAdapter(ListItemClickListener listener)
+    SearchAdapter(ListItemClickListener listener, Context context)
     {
         clickListener=listener;
         count=0;
         setHasStableIds(true);
+        CartDbHelper helper=new CartDbHelper(context);
+        db=helper.getWritableDatabase();
     }
 
-    public void onCart(View view)
-    {
-
-    }
 
     @Override
     public SearchAdapter.ResultHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -117,11 +118,20 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ResultHold
                 {
                     cart.setImageResource(R.drawable.cart_green);
                     cart.setTag(R.drawable.cart_green);
+                    ContentValues cv=new ContentValues();
+                    try{
+                        cv.put(CartContract.CartEntry.COLUMN_TITLE,jsonArray.getJSONObject(getAdapterPosition()).getString("title"));
+                        cv.put(CartContract.CartEntry.COLUMN_SUBTITLE,jsonArray.getJSONObject(getAdapterPosition()).getString("subtitle"));
+                        cv.put(CartContract.CartEntry.COLUMN_PRICE,jsonArray.getJSONObject(getAdapterPosition()).getString("price"));
+                        cv.put(CartContract.CartEntry.COLUMN_IMAGE,jsonArray.getJSONObject(getAdapterPosition()).getString("image"));
+                        db.insert(CartContract.CartEntry.TABLE_NAME,null,cv);
+                    }catch (JSONException j){}
                 }
                 else
                 {
                     cart.setImageResource(R.drawable.cart_black);
                     cart.setTag(R.drawable.cart_black);
+                    db.delete(CartContract.CartEntry.TABLE_NAME, CartContract.CartEntry._ID+"="+getAdapterPosition()+1,null);
                 }
             }
             else
