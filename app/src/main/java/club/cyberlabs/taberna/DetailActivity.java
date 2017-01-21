@@ -14,6 +14,8 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 
+import static club.cyberlabs.taberna.LoginActivity.hostIP;
+
 public class DetailActivity extends AppCompatActivity {
 
     TextView title,sub,price;
@@ -30,7 +32,7 @@ public class DetailActivity extends AppCompatActivity {
         try {
             jsonObject = new JSONObject(getIntent().getStringExtra("json"));
             new DownloadImageTask(image)
-                    .execute(jsonObject.getString("image"));
+                    .execute(hostIP+"public/images/"+jsonObject.getString("image"));
             title.setText(jsonObject.getString("title"));
             sub.setText(jsonObject.getString("subtitle"));
 

@@ -16,8 +16,7 @@
         android:background="#ffffff"
         android:id="@+id/detail_image"
         android:layout_height="wrap_content"
-        android:elevation="4dp"
-        android:src="@drawable/intro_jars"/>
+        android:elevation="4dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,18 +29,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/detail_title"
-            android:text="Aam Ka Aachaar - Homemade"
             android:textSize="20sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/detail_sub"
-            android:text="Sub"/>
+            android:id="@+id/detail_sub"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/detail_price"
-            android:text="Rs 5,000"
             android:textSize="20sp"/>
         </LinearLayout>
     <LinearLayout

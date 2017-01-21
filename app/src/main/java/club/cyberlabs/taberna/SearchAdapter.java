@@ -18,6 +18,8 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 
+import static club.cyberlabs.taberna.LoginActivity.hostIP;
+
 /**
  * Created by Himanshu on 20-01-2017.
  */
@@ -65,8 +67,8 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ResultHold
             JSONObject object;
             try{
                 object=jsonArray.getJSONObject(position);
-            /*new DownloadImageTask((ImageView) holder.itemView.findViewById(R.id.search_image))
-                    .execute(object.getString("image"));*/
+            new DownloadImageTask((ImageView) holder.itemView.findViewById(R.id.search_image))
+                    .execute(hostIP+"public/images/"+object.getString("image"));
                 TextView title=(TextView)holder.itemView.findViewById(R.id.search_title);
                 title.setText(object.getString("title"));
                 TextView sub=(TextView)holder.itemView.findViewById(R.id.search_subtitle);
