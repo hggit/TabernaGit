@@ -16,6 +16,10 @@
         "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_one.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_one.xml"
+    },
+    {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -24,12 +28,12 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -68,6 +72,10 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_four.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_four.xml"
+    },
+    {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
     },
@@ -100,12 +108,12 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -138,6 +146,10 @@
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_two.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_two.xml"
     },
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
@@ -308,6 +320,10 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_six.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_six.xml"
+    },
+    {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_text.xml"
     },
@@ -318,6 +334,10 @@
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_five.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_five.xml"
     },
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
@@ -390,6 +410,10 @@
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_three.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_three.xml"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
@@ -466,6 +490,10 @@
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_seven.xml",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\layout\\fragment_seven.xml"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",

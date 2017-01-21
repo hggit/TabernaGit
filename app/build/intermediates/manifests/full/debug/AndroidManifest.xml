@@ -27,7 +27,7 @@
         </activity>
         <activity
             android:name="club.cyberlabs.taberna.MainActivity"
-            android:label="@string/title_activity_welcome" />
+            android:label="Taberna" />
         <activity
             android:name="club.cyberlabs.taberna.LoginActivity"
             android:label="@string/title_activity_login" />
@@ -37,7 +37,9 @@
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity android:name="club.cyberlabs.taberna.ForgotActivity" />
         <activity android:name="club.cyberlabs.taberna.DetailActivity" />
-        <activity android:name="club.cyberlabs.taberna.CatalogueActivity" />
+        <activity
+            android:name="club.cyberlabs.taberna.CatalogueActivity"
+            android:theme="@style/CatTheme" />
         <activity android:name="club.cyberlabs.taberna.SearchActivity" />
     </application>
 

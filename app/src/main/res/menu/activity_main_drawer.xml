@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Gadgets"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Gadgets" />
+        <item
+            android:id="@+id/Appliances"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Appliances" />
+        <item
+            android:id="@+id/Books"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Books" />
+        <item
+            android:id="@+id/Toys"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Toys" />
+        <item
+            android:id="@+id/Office"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Office" />
+        <item
+            android:id="@+id/Daily_use"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Daily_use" />
+
+    </group>
+    <item >
+        <menu>
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="Set Budget"
+                android:id="@+id/Set_Budget"/>
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="haha"
+                android:id="@+id/details"/>
+        </menu>
+    </item>
+
+</menu>

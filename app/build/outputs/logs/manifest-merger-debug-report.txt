@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:7:5-36:19
+ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:7:5-37:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -65,9 +65,9 @@ ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:19:27-74
 activity#club.cyberlabs.taberna.MainActivity
-ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:22:9-24:62
+ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:22:9-24:39
 	android:label
-		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:24:13-59
+		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
 		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:23:13-41
 activity#club.cyberlabs.taberna.LoginActivity
@@ -93,13 +93,15 @@ ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:33:9-52
 	android:name
 		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:33:19-49
 activity#club.cyberlabs.taberna.CatalogueActivity
-ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:34:9-55
+ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:34:9-35:46
+	android:theme
+		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:35:13-44
 	android:name
 		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:34:19-52
 activity#club.cyberlabs.taberna.SearchActivity
-ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:35:9-61
+ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:36:9-61
 	android:name
-		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:35:19-49
+		ADDED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml:36:19-49
 uses-sdk
 INJECTED from X:\Code\TabernaGit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
