@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_bb45d694e9d427e0086da2b429f73ed4a844225f.jar" />
+    </item>
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_93d9a1e99c46c276f9d50c0908d36b1c23af7059.jar" />
+    </item>
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_1000b84c54f4e88a624e995b06b7be90ead2d64c.jar" />
+    </item>
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_d7ea6373bffc4183d5393cd40774d596bc573bda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Himanshu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_5e99067b55e9d781fe1dbc4687b76517524a0fd7.jar" />
+    </item>
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_4c43f1c38da2cd5d67844c6d5be01cb53eb7a6fb.jar" />
+    </item>
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_63d009b144009817188f6fe43d88c5fcaf3cd59a.jar" />
+    </item>
+    <item
+        jar="X:\Code\TabernaGit\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="X:\Code\TabernaGit\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_c27ee8246fbc22f7f8f5534d9c9f25cc1136bc52.jar" />
+    </item>
+
+</items>

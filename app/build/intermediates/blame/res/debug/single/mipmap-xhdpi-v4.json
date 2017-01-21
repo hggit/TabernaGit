@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\app_icon.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\mipmap-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\intro1_1.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\mipmap-xhdpi\\intro1_1.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\app_icon.png",
+        "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\mipmap-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\intro1_1.png",
+        "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\mipmap-xhdpi\\intro1_1.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

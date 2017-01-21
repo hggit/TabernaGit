@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="club.cyberlabs.taberna"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="club.cyberlabs.taberna.WelcomeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="club.cyberlabs.taberna.MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="club.cyberlabs.taberna.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="club.cyberlabs.taberna.OtpActivity"
+            android:parentActivityName="club.cyberlabs.taberna.LoginActivity"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name="club.cyberlabs.taberna.ForgotActivity" />
+        <activity android:name="club.cyberlabs.taberna.DetailActivity" />
+        <activity android:name="club.cyberlabs.taberna.CatalogueActivity" />
+        <activity android:name="club.cyberlabs.taberna.SearchActivity" />
+    </application>
+
+</manifest>
