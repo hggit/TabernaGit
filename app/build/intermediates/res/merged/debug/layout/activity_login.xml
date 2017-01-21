@@ -4,20 +4,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/myAppColor"
     android:paddingLeft="40dp"
     android:paddingRight="40dp"
     android:paddingTop="8dp"
     tools:context="club.cyberlabs.taberna.LoginActivity">
-    <ImageView
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:src="@drawable/intro2_1"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp"/>
+        android:text="Taberna"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="70sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"/>
+
     <TextView
         android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
         android:layout_height="20dp"
         android:text="@string/login_head"
+        android:textColor="@android:color/white"
         android:textSize="15sp"/>
     <EditText
         android:layout_width="match_parent"
@@ -25,6 +32,7 @@
         android:id="@+id/et_phone"
         android:background="@drawable/phone"
         android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:layout_marginBottom="20dp"
         android:text="+91"
         android:maxLength="13"/>
@@ -33,12 +41,14 @@
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:text="@string/login_pass"
+        android:textColor="@android:color/white"
         android:textSize="15sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@drawable/phone"
-        android:password="true"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
         android:id="@+id/et_pass"
         android:layout_marginBottom="3dp"
         android:textSize="20sp"/>
@@ -46,6 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/forgot"
+        android:textColor="@android:color/white"
         android:clickable="true"
         android:onClick="onForgotPassword"
         android:text="Forgot Password?"
@@ -56,9 +67,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
+        android:background="@android:color/white"
         android:id="@+id/but"
         android:layout_gravity="center"
         android:text="SIGN IN"
+        android:layout_marginTop="20dp"
         android:onClick="onButtonClick"/>
     <View
         android:layout_width="wrap_content"
@@ -72,6 +85,7 @@
         android:id="@+id/change"
         android:clickable="true"
         android:onClick="changeButton"
+        android:textColor="@android:color/white"
         android:text="Don't have an account? Create one."
         android:layout_gravity="center"/>
 

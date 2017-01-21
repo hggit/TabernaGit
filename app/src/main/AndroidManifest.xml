@@ -29,9 +29,11 @@
             android:name=".OtpActivity"
             android:parentActivityName=".LoginActivity"
             android:theme="@android:style/Theme.Holo.Dialog" />
-        <activity android:name=".ForgotActivity" />
+        <activity android:name=".ForgotActivity"
+            android:label="Forgot Password"/>
         <activity android:name=".DetailActivity" />
-        <activity android:name=".CatalogueActivity" />
+        <activity android:name=".CatalogueActivity"
+            android:theme="@style/CatTheme"/>
         <activity android:name=".SearchActivity"></activity>
     </application>
 

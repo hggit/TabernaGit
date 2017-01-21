@@ -1,26 +1,14 @@
 [
     {
-        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\app_icon.png",
+        "source": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
     },
     {
-        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\app_icon.png",
-        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
-    },
-    {
-        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\intro1_1.png",
-        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\mipmap-mdpi\\intro1_1.png"
-    },
-    {
-        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\app_icon.png",
-        "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
-    },
-    {
-        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\intro1_1.png",
-        "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\mipmap-mdpi\\intro1_1.png"
+        "merged": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\intro1_1.png",
+        "source": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\src\\main\\res\\mipmap-mdpi\\intro1_1.png"
     }
 ]
