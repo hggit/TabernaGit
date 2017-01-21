@@ -20,12 +20,16 @@
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\toys.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\toys.png"
     },
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro2_2.jpg",
         "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\intro2_2.jpg"
+    },
+    {
+        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro1_2.jpg",
@@ -92,6 +96,10 @@
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\cloths.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\cloths.png"
+    },
+    {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -106,6 +114,10 @@
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\point.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\point.png"
     },
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro_jars.jpg",
@@ -154,6 +166,10 @@
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\posmetic.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\posmetic.png"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro1_2.jpg",
@@ -220,6 +236,10 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\qlec.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\qlec.png"
+    },
+    {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro2_1.jpeg",
         "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\intro2_1.jpeg"
     },
@@ -240,6 +260,10 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\pofa.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\pofa.png"
+    },
+    {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro2_2.jpg",
         "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\drawable-xxxhdpi\\intro2_2.jpg"
     },
@@ -254,6 +278,10 @@
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\pooks.png",
+        "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\pooks.png"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",

@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         manager=new PrefManager(this);
         manager.setFirstTimeLaunch(false);
         editText=(EditText)findViewById(R.id.search_key);
+        editText.clearFocus();
     }
 
     public void showCatalogue(View view)

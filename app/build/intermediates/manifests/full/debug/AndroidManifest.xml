@@ -27,8 +27,7 @@
         </activity>
         <activity
             android:name="club.cyberlabs.taberna.MainActivity"
-            android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_welcome" />
         <activity
             android:name="club.cyberlabs.taberna.LoginActivity"
             android:label="@string/title_activity_login" />

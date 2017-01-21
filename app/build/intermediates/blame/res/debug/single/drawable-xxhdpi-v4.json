@@ -24,12 +24,12 @@
         "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_food.png",
         "source": "X:\\Code\\TabernaHackfest\\app\\src\\main\\res\\drawable-xxhdpi\\ic_food.png"
+    },
+    {
+        "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "X:\\Code\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_food.png",

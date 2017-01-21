@@ -15,9 +15,8 @@
         android:layout_gravity="center"
         android:background="#ffffff"
         android:id="@+id/detail_image"
-        android:layout_height="wrap_content"
-        android:elevation="4dp"
-        android:src="@drawable/intro_jars"/>
+        android:layout_height="200dp"
+        android:elevation="4dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,39 +29,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/detail_title"
-            android:text="Aam Ka Aachaar - Homemade"
             android:textSize="20sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/detail_sub"
-            android:text="Sub"/>
+            android:id="@+id/detail_sub"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/detail_price"
-            android:text="Rs 5,000"
             android:textSize="20sp"/>
         </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:padding="16dp"
-        android:elevation="4dp"
-        android:background="#ffffff"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Details"
-            android:textSize="16sp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
-            android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. "/>
-    </LinearLayout>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
