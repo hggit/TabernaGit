@@ -1,4 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Kids"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Puzzles"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Soft Toys"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Remote Control Toys"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Outdoor Toys"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Musical Toys"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Dolls and Doll Houses"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Educational Toys"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Board Games"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Action Figures"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,4 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="First Aid"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Cold and Flu"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Laxatives"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Diabetes"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Anti-Depressants"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Analgesics"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Allergies"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Acne"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Antibiotics"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Anti-Histamines"
+                    android:gravity="center"
+                    android:textColor="@color/title"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:background="@color/separator_line"
+                android:id="@+id/view" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
