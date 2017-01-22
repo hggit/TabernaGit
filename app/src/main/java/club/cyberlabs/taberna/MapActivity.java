@@ -53,14 +53,14 @@ public class MapActivity extends FragmentActivity implements GoogleMap.InfoWindo
         // Getting reference to SupportMapFragment of the activity_main
         SupportMapFragment fm = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
         MarkerOptions first = new MarkerOptions()
-                .position(new LatLng(23.8046336, 86.4430113))
-                .title("Jamtara");
+                .position(new LatLng(23.8152281, 86.4409191))
+                .title("IIT(ISM), Dhanbad");
         MarkerOptions second = new MarkerOptions()
-                .position(new LatLng(23.8118115, 86.4556036))
-                .title("Main Road");
+                .position(new LatLng(23.800813,86.4414923))
+                .title("Hirapur");
         MarkerOptions third = new MarkerOptions()
-                .position(new LatLng(23.8328016,86.4319834))
-                .title("Hirak Point");
+                .position(new LatLng(23.7982826,86.4375505))
+                .title("Randhir Varma Chowk");
         // Getting Map for the SupportMapFragment
         map = fm.getMap();
         map.addMarker(first);
@@ -79,7 +79,7 @@ public class MapActivity extends FragmentActivity implements GoogleMap.InfoWindo
     }
     private String getDirectionsUrl(){
 
-        String waypoints = "origin=23.8046336,86.4430113&destination=23.8118115,86.4556036&waypoints=23.8328016,86.4319834";
+        String waypoints = "origin=23.8152281,86.4409191&destination=23.7982826,86.4375505&waypoints=23.800813,86.4414923";
 
         String sensor = "sensor=false";
         String params = waypoints + "&" + sensor;

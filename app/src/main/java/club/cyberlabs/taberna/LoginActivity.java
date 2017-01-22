@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
     TextView tvForgot,tvChange;
     static Toast mToast;
     Button button;
-    static String hostIP="http://172.16.40.135:5000/",number,password,otp_str;
+    static String hostIP="http://192.168.1.100:5000/",number,password,otp_str;
     static PrefManager manager;
 
     @Override

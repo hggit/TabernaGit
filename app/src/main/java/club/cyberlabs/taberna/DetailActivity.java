@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -61,11 +62,13 @@ public class DetailActivity extends AppCompatActivity {
                 cv.put(CartContract.CartEntry.COLUMN_IMAGE,jsonObject.getString("image"));
             }catch (JSONException j){}
             db.insert(CartContract.CartEntry.TABLE_NAME,null,cv);
+            Toast.makeText(this,"Added to cart.",Toast.LENGTH_SHORT).show();
         }
         else
         {
             button.setText("ADD TO CART");
             db.delete(CartContract.CartEntry.TABLE_NAME, CartContract.CartEntry.COLUMN_TITLE+"="+title.getText().toString(),null);
+            Toast.makeText(this,"Removed from cart.",Toast.LENGTH_SHORT).show();
         }
     }
 

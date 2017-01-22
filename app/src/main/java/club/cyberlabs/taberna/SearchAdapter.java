@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -30,6 +31,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ResultHold
 
     int count;
     ListItemClickListener clickListener;
+    Context con;
     JSONArray jsonArray;
     SQLiteDatabase db;
 
@@ -41,6 +43,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ResultHold
     {
         clickListener=listener;
         count=0;
+        con=context;
         setHasStableIds(true);
         CartDbHelper helper=new CartDbHelper(context);
         db=helper.getWritableDatabase();
@@ -126,12 +129,14 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ResultHold
                         cv.put(CartContract.CartEntry.COLUMN_IMAGE,jsonArray.getJSONObject(getAdapterPosition()).getString("image"));
                         db.insert(CartContract.CartEntry.TABLE_NAME,null,cv);
                     }catch (JSONException j){}
+                    Toast.makeText(con,"Added to cart.",Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
                     cart.setImageResource(R.drawable.cart_black);
                     cart.setTag(R.drawable.cart_black);
                     db.delete(CartContract.CartEntry.TABLE_NAME, CartContract.CartEntry._ID+"="+getAdapterPosition()+1,null);
+                    Toast.makeText(con,"Removed from cart.",Toast.LENGTH_SHORT).show();
                 }
             }
             else
