@@ -95,7 +95,7 @@ public class CatalogueActivity extends AppCompatActivity {
                         startActivity(intent5);
                         return true;
                     case R.id.Set_Budget:
-                        Intent intent6 = new Intent(getApplicationContext(),CatalogueActivity.class);
+                        Intent intent6 = new Intent(getApplicationContext(),Budget.class);
                         intent6.putExtra("ans",6);
                         startActivity(intent6);
                         return true;

@@ -27,6 +27,7 @@
                     android:layout_height="match_parent"
                     android:textSize="20dp"
                     android:text="Diaries"
+                    android:id="@+id/dia"
                     android:gravity="center"
                     android:textColor="@color/title"
                     />
@@ -52,6 +53,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textSize="20dp"
+                    android:id="@+id/pen"
                     android:text="Pen"
                     android:gravity="center"
                     android:textColor="@color/title"

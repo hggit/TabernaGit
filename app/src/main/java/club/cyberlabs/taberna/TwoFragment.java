@@ -3,17 +3,19 @@ package club.cyberlabs.taberna;
 /**
  * Created by Himanshu on 21-01-2017.
  */
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 /**
  * Created by Aman on 21-01-2017.
  */
 
-public class TwoFragment extends Fragment {
+public class TwoFragment extends Fragment implements View.OnClickListener{
 
     public TwoFragment() {
         // Required empty public constructor
@@ -28,7 +30,28 @@ public class TwoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_two, container, false);
+        View root= inflater.inflate(R.layout.fragment_two, container, false);
+        TextView tv1=(TextView)root.findViewById(R.id.tv);
+        tv1.setOnClickListener(this);
+        TextView tv2=(TextView)root.findViewById(R.id.ref);
+        tv2.setOnClickListener(this);
+        return root;
+    }
+
+    @Override
+    public void onClick(View view) {
+        if(view.getId()==R.id.tv)
+        {
+            Intent intent=new Intent(this.getContext(),SearchActivity.class);
+            intent.putExtra("search-key","list/tv");
+            startActivity(intent);
+        }
+        else if(view.getId()==R.id.ref)
+        {
+            Intent intent=new Intent(this.getContext(),SearchActivity.class);
+            intent.putExtra("search-key","list/fridge");
+            startActivity(intent);
+        }
     }
 
 }

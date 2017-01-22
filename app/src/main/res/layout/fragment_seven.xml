@@ -27,6 +27,7 @@
                     android:layout_height="match_parent"
                     android:textSize="20dp"
                     android:text="Hair Care"
+                    android:id="@+id/hair"
                     android:gravity="center"
                     android:textColor="@color/title"
                     />
@@ -54,6 +55,7 @@
                     android:textSize="20dp"
                     android:text="Skin Care"
                     android:gravity="center"
+                    android:id="@+id/skin"
                     android:textColor="@color/title"
                     />
             </LinearLayout>

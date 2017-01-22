@@ -18,18 +18,30 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
-public class MapActivity extends FragmentActivity {
+public class MapActivity extends FragmentActivity implements GoogleMap.InfoWindowAdapter{
 
     GoogleMap map;
     ArrayList<LatLng> markerPoints;
+
+    static final CameraPosition DHANBAD = CameraPosition.builder()
+            .target(new LatLng(23.8145422,86.4410816))
+            .zoom(14)
+            .bearing(0)
+            .tilt(45)
+            .build();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,21 +52,34 @@ public class MapActivity extends FragmentActivity {
 
         // Getting reference to SupportMapFragment of the activity_main
         SupportMapFragment fm = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
-
+        MarkerOptions first = new MarkerOptions()
+                .position(new LatLng(23.8046336, 86.4430113))
+                .title("Jamtara");
+        MarkerOptions second = new MarkerOptions()
+                .position(new LatLng(23.8118115, 86.4556036))
+                .title("Main Road");
+        MarkerOptions third = new MarkerOptions()
+                .position(new LatLng(23.8328016,86.4319834))
+                .title("Hirak Point");
         // Getting Map for the SupportMapFragment
         map = fm.getMap();
-
+        map.addMarker(first);
+        map.addMarker(second);
+        map.addMarker(third);
         String url = getDirectionsUrl();
 
         DownloadTask downloadTask = new DownloadTask();
 
         // Start downloading json data from Google Directions API
         downloadTask.execute(url);
+        flyTo(DHANBAD);
     }
-
+    private void flyTo(CameraPosition target){
+        map.animateCamera(CameraUpdateFactory.newCameraPosition(target), 1000, null);
+    }
     private String getDirectionsUrl(){
 
-        String waypoints = "origin=23.3431425,85.1812388&destination=23.8020368,86.364209&waypoints=25.8865243,83.5593733";
+        String waypoints = "origin=23.8046336,86.4430113&destination=23.8118115,86.4556036&waypoints=23.8328016,86.4319834";
 
         String sensor = "sensor=false";
         String params = waypoints + "&" + sensor;
@@ -94,12 +119,22 @@ public class MapActivity extends FragmentActivity {
             br.close();
 
         }catch(Exception e){
-            Log.d("downloading url", e.toString());
+            //Log.d("Exception while downloading url", e.toString());
         }finally{
             iStream.close();
             urlConnection.disconnect();
         }
         return data;
+    }
+
+    @Override
+    public View getInfoWindow(Marker marker) {
+        return null;
+    }
+
+    @Override
+    public View getInfoContents(Marker marker) {
+        return null;
     }
 
     // Fetches data from url passed
@@ -184,8 +219,8 @@ public class MapActivity extends FragmentActivity {
 
                 // Adding all the points in the route to LineOptions
                 lineOptions.addAll(points);
-                lineOptions.width(2);
-                lineOptions.color(Color.RED);
+                lineOptions.width(10);
+                lineOptions.color(Color.GREEN);
             }
 
             // Drawing polyline in the Google Map for the i-th route
@@ -200,4 +235,3 @@ public class MapActivity extends FragmentActivity {
         return true;
     }
 }
-

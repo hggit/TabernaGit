@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     public void onSearch(View view)
     {
         Intent intent=new Intent(this,SearchActivity.class);
-        intent.putExtra("search-key",editText.getText().toString());
+        intent.putExtra("search-key","search/"+editText.getText().toString());
         startActivity(intent);
     }
 }

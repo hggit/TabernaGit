@@ -49,7 +49,7 @@ public class SearchActivity extends AppCompatActivity implements SearchAdapter.L
         String key=getIntent().getStringExtra("search-key");
         URL url=null;
         try{
-            url=new URL(hostIP+"search/"+key);
+            url=new URL(hostIP+key);
         }
         catch (MalformedURLException m){}
         get(url);

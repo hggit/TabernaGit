@@ -92,12 +92,12 @@
         "source": "X:\\Code\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\point.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\cloths.png",
-        "source": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\cloths.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_movie.png",
         "source": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_movie.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\cloths.png",
+        "source": "C:\\Users\\User\\Desktop\\TabernaGit\\app\\src\\main\\res\\drawable-xxxhdpi\\cloths.png"
     },
     {
         "merged": "X:\\Code\\TabernaHackfest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_travel.png",

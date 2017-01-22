@@ -1,16 +1,34 @@
 package club.cyberlabs.taberna;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import static club.cyberlabs.taberna.LoginActivity.hostIP;
 
 public class CartActivity extends AppCompatActivity {
     SQLiteDatabase db;
     CartAdapter adapter;
+    String key;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +69,7 @@ public class CartActivity extends AppCompatActivity {
     }
 
     private Cursor getCart() {
-        return db.query(
+        Cursor cursor= db.query(
                 CartContract.CartEntry.TABLE_NAME,
                 null,
                 null,
@@ -60,9 +78,21 @@ public class CartActivity extends AppCompatActivity {
                 null,
                 null
         );
+        key="";
+        for(int i=0;i<cursor.getCount();i++)
+        {
+            cursor.moveToPosition(i);
+            key+="-"+cursor.getString(cursor.getColumnIndex(CartContract.CartEntry.COLUMN_IMAGE));
+        }
+        return cursor;
     }
     void removeItem(long id)
     {
         db.delete(CartContract.CartEntry.TABLE_NAME, CartContract.CartEntry._ID+"="+id,null);
+    }
+
+    public void onConfirm(View view)
+    {
+        startActivity(new Intent(this,MapActivity.class));
     }
 }

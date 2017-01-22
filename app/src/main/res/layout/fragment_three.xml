@@ -27,6 +27,7 @@
                     android:layout_height="match_parent"
                     android:textSize="20dp"
                     android:text="Entrance Exams"
+                    android:id="@+id/ent"
                     android:gravity="center"
                     android:textColor="@color/title"
                     />
@@ -54,6 +55,7 @@
                     android:textSize="20dp"
                     android:text="Novels"
                     android:gravity="center"
+                    android:id="@+id/nov"
                     android:textColor="@color/title"
                     />
             </LinearLayout>

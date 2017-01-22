@@ -25,6 +25,7 @@ android:layout_height="match_parent">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:id="@+id/head"
                         android:textSize="20dp"
                         android:text="Headphones"
                         android:gravity="center"
@@ -53,6 +54,7 @@ android:layout_height="match_parent">
                     android:layout_height="match_parent"
                     android:textSize="20dp"
                     android:text="Smartphone"
+                    android:id="@+id/smart"
                     android:gravity="center"
                     android:textColor="@color/title"
                     />

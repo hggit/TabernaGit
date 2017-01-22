@@ -27,6 +27,7 @@
                     android:layout_height="match_parent"
                     android:textSize="20dp"
                     android:text="Kids"
+                    android:id="@+id/kid"
                     android:gravity="center"
                     android:textColor="@color/title"
                     />
@@ -53,6 +54,7 @@
                     android:layout_height="match_parent"
                     android:textSize="20dp"
                     android:text="Puzzles"
+                    android:id="@+id/puz"
                     android:gravity="center"
                     android:textColor="@color/title"
                     />
